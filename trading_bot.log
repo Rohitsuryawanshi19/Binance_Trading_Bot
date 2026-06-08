@@ -1,0 +1,497 @@
+2026-06-08 23:30:49 | ERROR    | trading_bot.api | Account fetch failed: BINANCE_API_KEY and BINANCE_API_SECRET must be set in .env
+2026-06-08 23:31:12 | ERROR    | trading_bot.api | Account fetch failed: BINANCE_API_KEY and BINANCE_API_SECRET must be set in .env
+2026-06-08 23:31:42 | ERROR    | trading_bot.api | Account fetch failed: BINANCE_API_KEY and BINANCE_API_SECRET must be set in .env
+2026-06-08 23:31:59 | ERROR    | trading_bot.api | Account fetch failed: BINANCE_API_KEY and BINANCE_API_SECRET must be set in .env
+2026-06-08 23:32:13 | ERROR    | trading_bot.api | Account fetch failed: BINANCE_API_KEY and BINANCE_API_SECRET must be set in .env
+2026-06-08 23:32:43 | ERROR    | trading_bot.api | Account fetch failed: BINANCE_API_KEY and BINANCE_API_SECRET must be set in .env
+2026-06-08 23:33:12 | ERROR    | trading_bot.api | Account fetch failed: BINANCE_API_KEY and BINANCE_API_SECRET must be set in .env
+2026-06-08 23:33:43 | ERROR    | trading_bot.api | Account fetch failed: BINANCE_API_KEY and BINANCE_API_SECRET must be set in .env
+2026-06-08 23:33:49 | INFO     | trading_bot.client | Server time synchronized | offset=519ms
+2026-06-08 23:33:50 | INFO     | trading_bot.client | Server time synchronized | offset=517ms
+2026-06-08 23:33:51 | INFO     | trading_bot.client | Server time synchronized | offset=517ms
+2026-06-08 23:33:51 | INFO     | trading_bot.client | Server time synchronized | offset=520ms
+2026-06-08 23:33:52 | INFO     | trading_bot.client | Server time synchronized | offset=517ms
+2026-06-08 23:33:53 | INFO     | trading_bot.client | Server time synchronized | offset=516ms
+2026-06-08 23:33:53 | INFO     | trading_bot.client | Server time synchronized | offset=513ms
+2026-06-08 23:33:53 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780941833917, 'signature': '9f4d12811ba67e6196f08d2d4e84c44f735dcec20d6a730cc8f05f482524074f'}
+2026-06-08 23:33:53 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:33:53 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:33:53 | INFO     | trading_bot.client | Server time synchronized | offset=512ms
+2026-06-08 23:33:54 | INFO     | trading_bot.client | Server time synchronized | offset=519ms
+2026-06-08 23:33:55 | INFO     | trading_bot.client | Server time synchronized | offset=512ms
+2026-06-08 23:33:56 | INFO     | trading_bot.client | Server time synchronized | offset=511ms
+2026-06-08 23:33:57 | INFO     | trading_bot.client | Server time synchronized | offset=517ms
+2026-06-08 23:33:58 | INFO     | trading_bot.client | Server time synchronized | offset=526ms
+2026-06-08 23:33:58 | INFO     | trading_bot.client | Server time synchronized | offset=531ms
+2026-06-08 23:33:59 | INFO     | trading_bot.client | Server time synchronized | offset=513ms
+2026-06-08 23:34:00 | INFO     | trading_bot.client | Server time synchronized | offset=503ms
+2026-06-08 23:34:01 | INFO     | trading_bot.client | Server time synchronized | offset=511ms
+2026-06-08 23:34:01 | INFO     | trading_bot.client | Server time synchronized | offset=500ms
+2026-06-08 23:34:02 | INFO     | trading_bot.client | Server time synchronized | offset=512ms
+2026-06-08 23:34:03 | INFO     | trading_bot.client | Server time synchronized | offset=514ms
+2026-06-08 23:34:03 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780941843645, 'signature': 'bd13a17e66796b1588e99b214f6733eb4ae420443daf447026497c5fb4a1daf0'}
+2026-06-08 23:34:03 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:34:03 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:34:03 | INFO     | trading_bot.client | Server time synchronized | offset=504ms
+2026-06-08 23:34:04 | INFO     | trading_bot.client | Server time synchronized | offset=507ms
+2026-06-08 23:34:05 | INFO     | trading_bot.client | Server time synchronized | offset=512ms
+2026-06-08 23:34:05 | INFO     | trading_bot.client | Server time synchronized | offset=498ms
+2026-06-08 23:34:06 | INFO     | trading_bot.client | Server time synchronized | offset=516ms
+2026-06-08 23:34:09 | INFO     | trading_bot.client | Server time synchronized | offset=515ms
+2026-06-08 23:34:09 | INFO     | trading_bot.client | Server time synchronized | offset=515ms
+2026-06-08 23:34:10 | INFO     | trading_bot.client | Server time synchronized | offset=506ms
+2026-06-08 23:34:11 | INFO     | trading_bot.client | Server time synchronized | offset=511ms
+2026-06-08 23:34:12 | INFO     | trading_bot.client | Server time synchronized | offset=513ms
+2026-06-08 23:34:12 | INFO     | trading_bot.client | Server time synchronized | offset=520ms
+2026-06-08 23:34:13 | INFO     | trading_bot.client | Server time synchronized | offset=514ms
+2026-06-08 23:34:13 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780941854066, 'signature': '0667ab100924ecc894c6da593f547e2ee3937277e51c3a08f90add007f46e855'}
+2026-06-08 23:34:13 | INFO     | trading_bot.client | Server time synchronized | offset=511ms
+2026-06-08 23:34:13 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780941854097, 'signature': 'bb3e4b8ecc2b448241f6b7c95f112da2f933f43108e0991d7e501d9af5ecb072'}
+2026-06-08 23:34:13 | INFO     | trading_bot.client | Server time synchronized | offset=513ms
+2026-06-08 23:34:13 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:34:13 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:34:13 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:34:13 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:34:13 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:34:14 | INFO     | trading_bot.client | Server time synchronized | offset=494ms
+2026-06-08 23:34:15 | INFO     | trading_bot.client | Server time synchronized | offset=499ms
+2026-06-08 23:34:17 | INFO     | trading_bot.client | Server time synchronized | offset=523ms
+2026-06-08 23:34:17 | INFO     | trading_bot.client | Server time synchronized | offset=487ms
+2026-06-08 23:34:18 | INFO     | trading_bot.client | Server time synchronized | offset=390ms
+2026-06-08 23:34:18 | INFO     | trading_bot.client | Server time synchronized | offset=478ms
+2026-06-08 23:34:19 | INFO     | trading_bot.client | Server time synchronized | offset=410ms
+2026-06-08 23:34:20 | INFO     | trading_bot.client | Server time synchronized | offset=435ms
+2026-06-08 23:34:21 | INFO     | trading_bot.client | Server time synchronized | offset=509ms
+2026-06-08 23:34:21 | INFO     | trading_bot.client | Server time synchronized | offset=503ms
+2026-06-08 23:34:22 | INFO     | trading_bot.client | Server time synchronized | offset=509ms
+2026-06-08 23:34:23 | INFO     | trading_bot.client | Server time synchronized | offset=442ms
+2026-06-08 23:34:23 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780941863959, 'signature': '9582d6dbe68aff79a86fba2db00f10871a00cfc6a65ea11725e2c164191d6f89'}
+2026-06-08 23:34:23 | INFO     | trading_bot.client | Server time synchronized | offset=508ms
+2026-06-08 23:34:23 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:34:23 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:34:24 | INFO     | trading_bot.client | Server time synchronized | offset=494ms
+2026-06-08 23:34:25 | INFO     | trading_bot.client | Server time synchronized | offset=512ms
+2026-06-08 23:34:25 | INFO     | trading_bot.client | Server time synchronized | offset=503ms
+2026-06-08 23:34:26 | INFO     | trading_bot.client | Server time synchronized | offset=505ms
+2026-06-08 23:34:27 | INFO     | trading_bot.client | Server time synchronized | offset=499ms
+2026-06-08 23:34:27 | INFO     | trading_bot.client | Server time synchronized | offset=497ms
+2026-06-08 23:34:28 | INFO     | trading_bot.client | Server time synchronized | offset=505ms
+2026-06-08 23:34:29 | INFO     | trading_bot.client | Server time synchronized | offset=479ms
+2026-06-08 23:34:30 | INFO     | trading_bot.client | Server time synchronized | offset=505ms
+2026-06-08 23:34:30 | INFO     | trading_bot.client | Server time synchronized | offset=507ms
+2026-06-08 23:34:31 | INFO     | trading_bot.client | Server time synchronized | offset=508ms
+2026-06-08 23:34:32 | INFO     | trading_bot.client | Server time synchronized | offset=501ms
+2026-06-08 23:34:33 | INFO     | trading_bot.client | Server time synchronized | offset=509ms
+2026-06-08 23:34:33 | INFO     | trading_bot.client | Server time synchronized | offset=493ms
+2026-06-08 23:34:33 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780941874102, 'signature': '6bc73b1f91eafa122f2088921a337895b2f16dc7d2277983e0798ff451358c8d'}
+2026-06-08 23:34:34 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:34:34 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:34:35 | INFO     | trading_bot.client | Server time synchronized | offset=401ms
+2026-06-08 23:34:35 | INFO     | trading_bot.client | Server time synchronized | offset=511ms
+2026-06-08 23:34:36 | INFO     | trading_bot.client | Server time synchronized | offset=488ms
+2026-06-08 23:34:37 | INFO     | trading_bot.client | Server time synchronized | offset=506ms
+2026-06-08 23:34:37 | INFO     | trading_bot.client | Server time synchronized | offset=500ms
+2026-06-08 23:34:38 | INFO     | trading_bot.client | Server time synchronized | offset=499ms
+2026-06-08 23:34:39 | INFO     | trading_bot.client | Server time synchronized | offset=499ms
+2026-06-08 23:34:39 | INFO     | trading_bot.client | Server time synchronized | offset=499ms
+2026-06-08 23:34:40 | INFO     | trading_bot.client | Server time synchronized | offset=514ms
+2026-06-08 23:34:41 | INFO     | trading_bot.client | Server time synchronized | offset=506ms
+2026-06-08 23:34:42 | INFO     | trading_bot.client | Server time synchronized | offset=507ms
+2026-06-08 23:34:42 | INFO     | trading_bot.client | Server time synchronized | offset=505ms
+2026-06-08 23:34:43 | INFO     | trading_bot.client | Server time synchronized | offset=505ms
+2026-06-08 23:34:43 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780941883934, 'signature': '069975086da58d34aabbec1d6d14dda01ed8740ab035ddc845c9fc356b87f9a4'}
+2026-06-08 23:34:43 | INFO     | trading_bot.client | Server time synchronized | offset=505ms
+2026-06-08 23:34:43 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780941883951, 'signature': '2044bc5dd06875a856f7880ab237f8b89a2d7921bbf844bf3093056e8edcb8fe'}
+2026-06-08 23:34:43 | INFO     | trading_bot.client | Server time synchronized | offset=508ms
+2026-06-08 23:34:43 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:34:43 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:34:43 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:34:43 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:34:43 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:34:44 | INFO     | trading_bot.client | Server time synchronized | offset=504ms
+2026-06-08 23:34:45 | INFO     | trading_bot.client | Server time synchronized | offset=505ms
+2026-06-08 23:34:46 | INFO     | trading_bot.client | Server time synchronized | offset=499ms
+2026-06-08 23:34:46 | INFO     | trading_bot.client | Server time synchronized | offset=493ms
+2026-06-08 23:34:47 | INFO     | trading_bot.client | Server time synchronized | offset=481ms
+2026-06-08 23:34:48 | INFO     | trading_bot.client | Server time synchronized | offset=492ms
+2026-06-08 23:34:49 | INFO     | trading_bot.client | Server time synchronized | offset=494ms
+2026-06-08 23:34:50 | INFO     | trading_bot.client | Server time synchronized | offset=492ms
+2026-06-08 23:34:51 | INFO     | trading_bot.client | Server time synchronized | offset=506ms
+2026-06-08 23:34:51 | INFO     | trading_bot.client | Server time synchronized | offset=503ms
+2026-06-08 23:34:52 | INFO     | trading_bot.client | Server time synchronized | offset=507ms
+2026-06-08 23:34:53 | INFO     | trading_bot.client | Server time synchronized | offset=504ms
+2026-06-08 23:34:53 | INFO     | trading_bot.client | Server time synchronized | offset=500ms
+2026-06-08 23:34:53 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780941893950, 'signature': '5000acac88b4f458ac6d2c0cbad0284e5a80ea3e1ce92517dcfcc9203b498014'}
+2026-06-08 23:34:53 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:34:53 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:34:54 | INFO     | trading_bot.client | Server time synchronized | offset=484ms
+2026-06-08 23:34:54 | INFO     | trading_bot.client | Server time synchronized | offset=490ms
+2026-06-08 23:34:55 | INFO     | trading_bot.client | Server time synchronized | offset=490ms
+2026-06-08 23:34:56 | INFO     | trading_bot.client | Server time synchronized | offset=501ms
+2026-06-08 23:34:57 | INFO     | trading_bot.client | Server time synchronized | offset=503ms
+2026-06-08 23:34:58 | INFO     | trading_bot.client | Server time synchronized | offset=493ms
+2026-06-08 23:34:58 | INFO     | trading_bot.client | Server time synchronized | offset=501ms
+2026-06-08 23:34:59 | INFO     | trading_bot.client | Server time synchronized | offset=511ms
+2026-06-08 23:35:00 | INFO     | trading_bot.client | Server time synchronized | offset=509ms
+2026-06-08 23:35:01 | INFO     | trading_bot.client | Server time synchronized | offset=499ms
+2026-06-08 23:35:02 | INFO     | trading_bot.client | Server time synchronized | offset=494ms
+2026-06-08 23:35:02 | INFO     | trading_bot.client | Server time synchronized | offset=503ms
+2026-06-08 23:35:03 | INFO     | trading_bot.client | Server time synchronized | offset=487ms
+2026-06-08 23:35:03 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780941903702, 'signature': 'd18540f6d04d69c9bceb9261c9eb52957f92d9c1f1f12a7f6a3bee534874fe4e'}
+2026-06-08 23:35:03 | INFO     | trading_bot.client | Server time synchronized | offset=519ms
+2026-06-08 23:35:03 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:35:03 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:35:04 | INFO     | trading_bot.client | Server time synchronized | offset=491ms
+2026-06-08 23:35:05 | INFO     | trading_bot.client | Server time synchronized | offset=502ms
+2026-06-08 23:35:06 | INFO     | trading_bot.client | Server time synchronized | offset=511ms
+2026-06-08 23:35:06 | INFO     | trading_bot.client | Server time synchronized | offset=505ms
+2026-06-08 23:35:07 | INFO     | trading_bot.client | Server time synchronized | offset=503ms
+2026-06-08 23:35:08 | INFO     | trading_bot.client | Server time synchronized | offset=407ms
+2026-06-08 23:35:10 | INFO     | trading_bot.client | Server time synchronized | offset=483ms
+2026-06-08 23:35:11 | INFO     | trading_bot.client | Server time synchronized | offset=505ms
+2026-06-08 23:35:12 | INFO     | trading_bot.client | Server time synchronized | offset=484ms
+2026-06-08 23:35:13 | INFO     | trading_bot.client | Server time synchronized | offset=507ms
+2026-06-08 23:35:13 | INFO     | trading_bot.client | Server time synchronized | offset=500ms
+2026-06-08 23:35:58 | INFO     | trading_bot.client | Server time synchronized | offset=494ms
+2026-06-08 23:35:58 | INFO     | trading_bot.client | Server time synchronized | offset=499ms
+2026-06-08 23:35:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780941958992, 'signature': '0faf95621ae9ddd491852e8c48d0ed3f235def8950eda14ada2953e94fca3ed4'}
+2026-06-08 23:35:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780941959002, 'signature': 'ac74a4558a5b2507709da74c58e4d32d6c9703fa190af907ac3b5aee47b97a65'}
+2026-06-08 23:35:58 | INFO     | trading_bot.client | Server time synchronized | offset=495ms
+2026-06-08 23:35:58 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:35:58 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:35:58 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:35:58 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:35:58 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:35:59 | INFO     | trading_bot.client | Server time synchronized | offset=496ms
+2026-06-08 23:36:00 | INFO     | trading_bot.client | Server time synchronized | offset=500ms
+2026-06-08 23:36:00 | INFO     | trading_bot.client | Server time synchronized | offset=496ms
+2026-06-08 23:36:01 | INFO     | trading_bot.client | Server time synchronized | offset=515ms
+2026-06-08 23:36:58 | INFO     | trading_bot.client | Server time synchronized | offset=343ms
+2026-06-08 23:36:58 | INFO     | trading_bot.client | Server time synchronized | offset=426ms
+2026-06-08 23:36:58 | INFO     | trading_bot.client | Server time synchronized | offset=426ms
+2026-06-08 23:36:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942018987, 'signature': 'bb07e686c3b23c0745362765f0ddf2c8b1c670129e3cac04b44913b1e0515a08'}
+2026-06-08 23:36:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942018987, 'signature': 'bb07e686c3b23c0745362765f0ddf2c8b1c670129e3cac04b44913b1e0515a08'}
+2026-06-08 23:36:59 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:36:59 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:36:59 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:36:59 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:36:59 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:37:00 | INFO     | trading_bot.client | Server time synchronized | offset=327ms
+2026-06-08 23:37:01 | INFO     | trading_bot.client | Server time synchronized | offset=479ms
+2026-06-08 23:37:02 | INFO     | trading_bot.client | Server time synchronized | offset=337ms
+2026-06-08 23:37:04 | INFO     | trading_bot.client | Server time synchronized | offset=375ms
+2026-06-08 23:37:58 | INFO     | trading_bot.client | Server time synchronized | offset=482ms
+2026-06-08 23:37:58 | INFO     | trading_bot.client | Server time synchronized | offset=342ms
+2026-06-08 23:37:58 | INFO     | trading_bot.client | Server time synchronized | offset=340ms
+2026-06-08 23:37:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942079043, 'signature': 'a15796565ac42ec8804b46b38119e8e44854a4af93c8381ded13a3d6318d9a39'}
+2026-06-08 23:37:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942079042, 'signature': 'c9c58a6b5c6abc02d8b9fac56e9176a3fba8dd04f2b2102af641fe85efed48fa'}
+2026-06-08 23:37:59 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:37:59 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:37:59 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:37:59 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:37:59 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:38:00 | INFO     | trading_bot.client | Server time synchronized | offset=489ms
+2026-06-08 23:38:01 | INFO     | trading_bot.client | Server time synchronized | offset=460ms
+2026-06-08 23:38:03 | INFO     | trading_bot.client | Server time synchronized | offset=472ms
+2026-06-08 23:38:04 | INFO     | trading_bot.client | Server time synchronized | offset=412ms
+2026-06-08 23:38:20 | INFO     | trading_bot.client | Server time synchronized | offset=481ms
+2026-06-08 23:38:20 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942100564, 'signature': 'a4819035949b0699f5abe0a03501b2e0fff0b8ccc542f13d98414d1766800845'}
+2026-06-08 23:38:20 | INFO     | trading_bot.client | Server time synchronized | offset=474ms
+2026-06-08 23:38:20 | INFO     | trading_bot.client | Server time synchronized | offset=472ms
+2026-06-08 23:38:20 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942100576, 'signature': '212fe3efe304f12f9507a4b7693d13ab168449538566ef1a06ca3cc8047fa127'}
+2026-06-08 23:38:20 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:38:20 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:38:20 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:38:20 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:38:20 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:38:21 | INFO     | trading_bot.client | Server time synchronized | offset=454ms
+2026-06-08 23:38:21 | INFO     | trading_bot.client | Server time synchronized | offset=446ms
+2026-06-08 23:38:22 | INFO     | trading_bot.client | Server time synchronized | offset=479ms
+2026-06-08 23:38:22 | INFO     | trading_bot.client | Server time synchronized | offset=461ms
+2026-06-08 23:38:23 | INFO     | trading_bot.client | Server time synchronized | offset=483ms
+2026-06-08 23:38:23 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942104050, 'signature': 'd7c9bbe9089ced26f638471d6e163ac2544f87bfa00945a30e1b66bf775e71ba'}
+2026-06-08 23:38:23 | INFO     | trading_bot.client | Server time synchronized | offset=463ms
+2026-06-08 23:38:23 | INFO     | trading_bot.client | Server time synchronized | offset=404ms
+2026-06-08 23:38:23 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:38:23 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:38:25 | INFO     | trading_bot.client | Server time synchronized | offset=347ms
+2026-06-08 23:38:25 | INFO     | trading_bot.client | Server time synchronized | offset=353ms
+2026-06-08 23:38:25 | INFO     | trading_bot.client | Server time synchronized | offset=446ms
+2026-06-08 23:38:26 | INFO     | trading_bot.client | Server time synchronized | offset=276ms
+2026-06-08 23:38:26 | INFO     | trading_bot.client | Server time synchronized | offset=281ms
+2026-06-08 23:38:27 | INFO     | trading_bot.client | Server time synchronized | offset=479ms
+2026-06-08 23:38:28 | INFO     | trading_bot.client | Server time synchronized | offset=459ms
+2026-06-08 23:38:28 | INFO     | trading_bot.client | Server time synchronized | offset=478ms
+2026-06-08 23:38:29 | INFO     | trading_bot.client | Server time synchronized | offset=445ms
+2026-06-08 23:38:30 | INFO     | trading_bot.client | Server time synchronized | offset=476ms
+2026-06-08 23:38:31 | INFO     | trading_bot.client | Server time synchronized | offset=455ms
+2026-06-08 23:38:31 | INFO     | trading_bot.client | Server time synchronized | offset=473ms
+2026-06-08 23:38:32 | INFO     | trading_bot.client | Server time synchronized | offset=469ms
+2026-06-08 23:38:33 | INFO     | trading_bot.client | Server time synchronized | offset=474ms
+2026-06-08 23:38:33 | INFO     | trading_bot.client | Server time synchronized | offset=462ms
+2026-06-08 23:38:33 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942113957, 'signature': 'c69c0d4ca1ef3fb83f39b6902ef257fbf0ceb223cb8da4f0df1fd5dac9bd3ca4'}
+2026-06-08 23:38:33 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:38:33 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:38:34 | INFO     | trading_bot.client | Server time synchronized | offset=471ms
+2026-06-08 23:38:35 | INFO     | trading_bot.client | Server time synchronized | offset=472ms
+2026-06-08 23:38:35 | INFO     | trading_bot.client | Server time synchronized | offset=428ms
+2026-06-08 23:38:36 | INFO     | trading_bot.client | Server time synchronized | offset=476ms
+2026-06-08 23:38:37 | INFO     | trading_bot.client | Server time synchronized | offset=467ms
+2026-06-08 23:38:38 | INFO     | trading_bot.client | Server time synchronized | offset=475ms
+2026-06-08 23:38:38 | INFO     | trading_bot.client | Server time synchronized | offset=472ms
+2026-06-08 23:38:39 | INFO     | trading_bot.client | Server time synchronized | offset=475ms
+2026-06-08 23:38:40 | INFO     | trading_bot.client | Server time synchronized | offset=481ms
+2026-06-08 23:38:41 | INFO     | trading_bot.client | Server time synchronized | offset=471ms
+2026-06-08 23:38:42 | INFO     | trading_bot.client | Server time synchronized | offset=462ms
+2026-06-08 23:38:43 | INFO     | trading_bot.client | Server time synchronized | offset=474ms
+2026-06-08 23:38:43 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942124161, 'signature': 'de983e7a025180a9680ebe5f9ee62815c71b34994637f873565301f6d4403603'}
+2026-06-08 23:38:43 | INFO     | trading_bot.client | Server time synchronized | offset=473ms
+2026-06-08 23:38:43 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942124171, 'signature': 'bcf35057bc4358d39fe57d831c3857f7fceb8083395f68035741487cec64a665'}
+2026-06-08 23:38:43 | INFO     | trading_bot.client | Server time synchronized | offset=471ms
+2026-06-08 23:38:43 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:38:43 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:38:43 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:38:44 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:38:44 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:38:44 | INFO     | trading_bot.client | Server time synchronized | offset=461ms
+2026-06-08 23:38:45 | INFO     | trading_bot.client | Server time synchronized | offset=481ms
+2026-06-08 23:38:45 | INFO     | trading_bot.client | Server time synchronized | offset=472ms
+2026-06-08 23:38:45 | INFO     | trading_bot.client | Server time synchronized | offset=478ms
+2026-06-08 23:38:46 | INFO     | trading_bot.client | Server time synchronized | offset=470ms
+2026-06-08 23:38:47 | INFO     | trading_bot.client | Server time synchronized | offset=454ms
+2026-06-08 23:38:48 | INFO     | trading_bot.client | Server time synchronized | offset=475ms
+2026-06-08 23:38:49 | INFO     | trading_bot.client | Server time synchronized | offset=465ms
+2026-06-08 23:38:50 | INFO     | trading_bot.client | Server time synchronized | offset=461ms
+2026-06-08 23:38:51 | INFO     | trading_bot.client | Server time synchronized | offset=468ms
+2026-06-08 23:38:52 | INFO     | trading_bot.client | Server time synchronized | offset=471ms
+2026-06-08 23:38:52 | INFO     | trading_bot.client | Server time synchronized | offset=472ms
+2026-06-08 23:38:53 | INFO     | trading_bot.client | Server time synchronized | offset=454ms
+2026-06-08 23:38:53 | INFO     | trading_bot.client | Server time synchronized | offset=434ms
+2026-06-08 23:38:53 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942133944, 'signature': 'd73154451bb20ee3e7c8e6454f2c21aadabf41ce807a64eaf4741681ef0ad065'}
+2026-06-08 23:38:53 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:38:53 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:38:54 | INFO     | trading_bot.client | Server time synchronized | offset=460ms
+2026-06-08 23:38:55 | INFO     | trading_bot.client | Server time synchronized | offset=472ms
+2026-06-08 23:38:56 | INFO     | trading_bot.client | Server time synchronized | offset=475ms
+2026-06-08 23:38:57 | INFO     | trading_bot.client | Server time synchronized | offset=468ms
+2026-06-08 23:38:57 | INFO     | trading_bot.client | Server time synchronized | offset=476ms
+2026-06-08 23:38:57 | INFO     | trading_bot.client | Server time synchronized | offset=472ms
+2026-06-08 23:38:58 | INFO     | trading_bot.client | Server time synchronized | offset=467ms
+2026-06-08 23:38:59 | INFO     | trading_bot.client | Server time synchronized | offset=467ms
+2026-06-08 23:39:00 | INFO     | trading_bot.client | Server time synchronized | offset=451ms
+2026-06-08 23:39:01 | INFO     | trading_bot.client | Server time synchronized | offset=459ms
+2026-06-08 23:39:02 | INFO     | trading_bot.client | Server time synchronized | offset=458ms
+2026-06-08 23:39:02 | INFO     | trading_bot.client | Server time synchronized | offset=435ms
+2026-06-08 23:39:03 | INFO     | trading_bot.client | Server time synchronized | offset=463ms
+2026-06-08 23:39:03 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942143940, 'signature': '8b267a1ba9faa41a18cff5b6c5c3162a4e872e805da8a7a7697c5d7f7148582e'}
+2026-06-08 23:39:03 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:39:03 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:39:03 | INFO     | trading_bot.client | Server time synchronized | offset=445ms
+2026-06-08 23:39:04 | INFO     | trading_bot.client | Server time synchronized | offset=468ms
+2026-06-08 23:39:05 | INFO     | trading_bot.client | Server time synchronized | offset=461ms
+2026-06-08 23:39:06 | INFO     | trading_bot.client | Server time synchronized | offset=462ms
+2026-06-08 23:39:06 | INFO     | trading_bot.client | Server time synchronized | offset=460ms
+2026-06-08 23:39:07 | INFO     | trading_bot.client | Server time synchronized | offset=470ms
+2026-06-08 23:39:08 | INFO     | trading_bot.client | Server time synchronized | offset=463ms
+2026-06-08 23:39:09 | INFO     | trading_bot.client | Server time synchronized | offset=470ms
+2026-06-08 23:39:10 | INFO     | trading_bot.client | Server time synchronized | offset=473ms
+2026-06-08 23:39:11 | INFO     | trading_bot.client | Server time synchronized | offset=466ms
+2026-06-08 23:39:11 | INFO     | trading_bot.client | Server time synchronized | offset=476ms
+2026-06-08 23:39:12 | INFO     | trading_bot.client | Server time synchronized | offset=470ms
+2026-06-08 23:39:13 | INFO     | trading_bot.client | Server time synchronized | offset=485ms
+2026-06-08 23:39:13 | INFO     | trading_bot.client | Server time synchronized | offset=463ms
+2026-06-08 23:39:13 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942153994, 'signature': '9145228c13aff1f7029c45a5b134f3e7510fa36018d8affe305e794c57e6291f'}
+2026-06-08 23:39:13 | INFO     | trading_bot.client | Server time synchronized | offset=467ms
+2026-06-08 23:39:13 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942154030, 'signature': 'dff9b26b6c14d36d2979ad4fa1a00fd1c40fdc19ec9041d579cde8b0c6d64028'}
+2026-06-08 23:39:13 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:39:13 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:39:13 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:39:13 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:39:13 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:39:14 | INFO     | trading_bot.client | Server time synchronized | offset=479ms
+2026-06-08 23:39:14 | INFO     | trading_bot.client | Server time synchronized | offset=469ms
+2026-06-08 23:39:15 | INFO     | trading_bot.client | Server time synchronized | offset=471ms
+2026-06-08 23:39:16 | INFO     | trading_bot.client | Server time synchronized | offset=470ms
+2026-06-08 23:39:17 | INFO     | trading_bot.client | Server time synchronized | offset=461ms
+2026-06-08 23:39:18 | INFO     | trading_bot.client | Server time synchronized | offset=467ms
+2026-06-08 23:39:18 | INFO     | trading_bot.client | Server time synchronized | offset=465ms
+2026-06-08 23:39:19 | INFO     | trading_bot.client | Server time synchronized | offset=463ms
+2026-06-08 23:39:20 | INFO     | trading_bot.client | Server time synchronized | offset=468ms
+2026-06-08 23:39:21 | INFO     | trading_bot.client | Server time synchronized | offset=448ms
+2026-06-08 23:39:22 | INFO     | trading_bot.client | Server time synchronized | offset=461ms
+2026-06-08 23:39:23 | INFO     | trading_bot.client | Server time synchronized | offset=463ms
+2026-06-08 23:39:23 | INFO     | trading_bot.client | Server time synchronized | offset=443ms
+2026-06-08 23:39:25 | INFO     | trading_bot.client | Server time synchronized | offset=442ms
+2026-06-08 23:39:58 | INFO     | trading_bot.client | Server time synchronized | offset=450ms
+2026-06-08 23:39:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942198715, 'signature': '2ffdeb330c92b958f7dd67eb7635d8165ae148fe8a908c07ce15e5d1090f3801'}
+2026-06-08 23:39:58 | INFO     | trading_bot.client | Server time synchronized | offset=455ms
+2026-06-08 23:39:58 | INFO     | trading_bot.client | Server time synchronized | offset=460ms
+2026-06-08 23:39:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942198996, 'signature': 'b32a2657d72ff86973e2bb8b7834897e9513a092cdb0f9d92badeadc650ea355'}
+2026-06-08 23:39:58 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:39:58 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:39:58 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:39:58 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:39:58 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:39:59 | INFO     | trading_bot.client | Server time synchronized | offset=460ms
+2026-06-08 23:40:00 | INFO     | trading_bot.client | Server time synchronized | offset=463ms
+2026-06-08 23:40:01 | INFO     | trading_bot.client | Server time synchronized | offset=461ms
+2026-06-08 23:40:02 | INFO     | trading_bot.client | Server time synchronized | offset=432ms
+2026-06-08 23:40:58 | INFO     | trading_bot.client | Server time synchronized | offset=426ms
+2026-06-08 23:40:58 | INFO     | trading_bot.client | Server time synchronized | offset=419ms
+2026-06-08 23:40:58 | INFO     | trading_bot.client | Server time synchronized | offset=422ms
+2026-06-08 23:40:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942259148, 'signature': '4fb456cd5858e1df3004325caee38022cc18aee7fe567b957d34199ab877921e'}
+2026-06-08 23:40:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942259157, 'signature': '669215a31dfa0e916974ce01a9628b8e012abe81e81964c80caaa542e48ab3e0'}
+2026-06-08 23:40:59 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:40:59 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:40:59 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:40:59 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:40:59 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:40:59 | INFO     | trading_bot.client | Server time synchronized | offset=452ms
+2026-06-08 23:41:00 | INFO     | trading_bot.client | Server time synchronized | offset=447ms
+2026-06-08 23:41:01 | INFO     | trading_bot.client | Server time synchronized | offset=451ms
+2026-06-08 23:41:01 | INFO     | trading_bot.client | Server time synchronized | offset=452ms
+2026-06-08 23:41:32 | INFO     | trading_bot.client | Server time synchronized | offset=445ms
+2026-06-08 23:41:32 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942292482, 'signature': '2678c8fe2b4a6d526a7ece5c50ab9a21d84cbac3c0982cc93b6d86d7d4925c8c'}
+2026-06-08 23:41:32 | INFO     | trading_bot.client | Server time synchronized | offset=450ms
+2026-06-08 23:41:32 | INFO     | trading_bot.client | Server time synchronized | offset=443ms
+2026-06-08 23:41:32 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942292502, 'signature': '2b4cf31f53a50e1162ab12775dae51bdce55df52c4bafb13f66a99cb817debba'}
+2026-06-08 23:41:32 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:41:32 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:41:32 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:41:32 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:41:32 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:41:32 | INFO     | trading_bot.client | Server time synchronized | offset=443ms
+2026-06-08 23:41:33 | INFO     | trading_bot.client | Server time synchronized | offset=446ms
+2026-06-08 23:41:33 | INFO     | trading_bot.client | Server time synchronized | offset=451ms
+2026-06-08 23:41:33 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942293859, 'signature': 'e2370b2fc45a52c4192e15651c98c1bce2857ffd40c7bfde81b9ad8388c9520b'}
+2026-06-08 23:41:33 | INFO     | trading_bot.client | Server time synchronized | offset=455ms
+2026-06-08 23:41:33 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:41:33 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:41:34 | INFO     | trading_bot.client | Server time synchronized | offset=426ms
+2026-06-08 23:41:34 | INFO     | trading_bot.client | Server time synchronized | offset=434ms
+2026-06-08 23:41:35 | INFO     | trading_bot.client | Server time synchronized | offset=450ms
+2026-06-08 23:41:35 | INFO     | trading_bot.client | Server time synchronized | offset=446ms
+2026-06-08 23:41:37 | INFO     | trading_bot.client | Server time synchronized | offset=455ms
+2026-06-08 23:41:37 | INFO     | trading_bot.client | Server time synchronized | offset=455ms
+2026-06-08 23:41:38 | INFO     | trading_bot.client | Server time synchronized | offset=450ms
+2026-06-08 23:41:38 | INFO     | trading_bot.client | Server time synchronized | offset=443ms
+2026-06-08 23:41:39 | INFO     | trading_bot.client | Server time synchronized | offset=449ms
+2026-06-08 23:41:40 | INFO     | trading_bot.client | Server time synchronized | offset=446ms
+2026-06-08 23:41:42 | INFO     | trading_bot.client | Server time synchronized | offset=446ms
+2026-06-08 23:41:42 | INFO     | trading_bot.client | Server time synchronized | offset=448ms
+2026-06-08 23:41:42 | INFO     | trading_bot.client | Server time synchronized | offset=446ms
+2026-06-08 23:41:43 | INFO     | trading_bot.client | Server time synchronized | offset=445ms
+2026-06-08 23:41:43 | INFO     | trading_bot.client | Server time synchronized | offset=445ms
+2026-06-08 23:41:43 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942303991, 'signature': '3652d364608d791132253dfaeae77a77e5f4d4e3ecfe72e60fa1e4dfda2a702c'}
+2026-06-08 23:41:43 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942303993, 'signature': 'e836c9f71b77e4f722877e1bbab72b8fbc8e09d59e33ec6333f9ca1c87c05842'}
+2026-06-08 23:41:43 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:41:43 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:41:43 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:41:43 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:41:43 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:41:44 | INFO     | trading_bot.client | Server time synchronized | offset=441ms
+2026-06-08 23:41:44 | INFO     | trading_bot.client | Server time synchronized | offset=442ms
+2026-06-08 23:41:45 | INFO     | trading_bot.client | Server time synchronized | offset=450ms
+2026-06-08 23:41:45 | INFO     | trading_bot.client | Server time synchronized | offset=447ms
+2026-06-08 23:41:46 | INFO     | trading_bot.client | Server time synchronized | offset=453ms
+2026-06-08 23:41:47 | INFO     | trading_bot.client | Server time synchronized | offset=444ms
+2026-06-08 23:41:48 | INFO     | trading_bot.client | Server time synchronized | offset=443ms
+2026-06-08 23:41:49 | INFO     | trading_bot.client | Server time synchronized | offset=371ms
+2026-06-08 23:41:49 | INFO     | trading_bot.client | Server time synchronized | offset=274ms
+2026-06-08 23:41:50 | INFO     | trading_bot.client | Server time synchronized | offset=421ms
+2026-06-08 23:41:51 | INFO     | trading_bot.client | Server time synchronized | offset=442ms
+2026-06-08 23:41:52 | INFO     | trading_bot.client | Server time synchronized | offset=435ms
+2026-06-08 23:41:53 | INFO     | trading_bot.client | Server time synchronized | offset=406ms
+2026-06-08 23:41:53 | INFO     | trading_bot.client | Server time synchronized | offset=406ms
+2026-06-08 23:41:53 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942313977, 'signature': '53098cafad51df0de9cb8c58a099b22894676d97d9661034419a6f06e844fc7c'}
+2026-06-08 23:41:53 | INFO     | trading_bot.client | Server time synchronized | offset=417ms
+2026-06-08 23:41:53 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:41:53 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:41:54 | INFO     | trading_bot.client | Server time synchronized | offset=415ms
+2026-06-08 23:42:00 | INFO     | trading_bot.client | Server time synchronized | offset=426ms
+2026-06-08 23:42:00 | INFO     | trading_bot.client | Server time synchronized | offset=422ms
+2026-06-08 23:42:01 | INFO     | trading_bot.client | Server time synchronized | offset=411ms
+2026-06-08 23:42:01 | INFO     | trading_bot.client | Server time synchronized | offset=415ms
+2026-06-08 23:42:02 | INFO     | trading_bot.client | Server time synchronized | offset=429ms
+2026-06-08 23:42:02 | INFO     | trading_bot.client | Server time synchronized | offset=444ms
+2026-06-08 23:42:03 | INFO     | trading_bot.client | Server time synchronized | offset=414ms
+2026-06-08 23:42:03 | INFO     | trading_bot.client | Server time synchronized | offset=423ms
+2026-06-08 23:42:03 | INFO     | trading_bot.client | Server time synchronized | offset=434ms
+2026-06-08 23:42:03 | INFO     | trading_bot.client | Server time synchronized | offset=439ms
+2026-06-08 23:42:03 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942324039, 'signature': '7a97b90cedf98b69b342567d4bae9c8c2d39215e3b739a720501bc7a2d8b2412'}
+2026-06-08 23:42:04 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:42:04 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:42:04 | INFO     | trading_bot.client | Server time synchronized | offset=373ms
+2026-06-08 23:42:05 | INFO     | trading_bot.client | Server time synchronized | offset=332ms
+2026-06-08 23:42:05 | INFO     | trading_bot.client | Server time synchronized | offset=404ms
+2026-06-08 23:42:05 | INFO     | trading_bot.client | Server time synchronized | offset=429ms
+2026-06-08 23:42:06 | INFO     | trading_bot.client | Server time synchronized | offset=442ms
+2026-06-08 23:42:06 | INFO     | trading_bot.client | Server time synchronized | offset=436ms
+2026-06-08 23:42:07 | INFO     | trading_bot.client | Server time synchronized | offset=444ms
+2026-06-08 23:42:08 | INFO     | trading_bot.client | Server time synchronized | offset=440ms
+2026-06-08 23:42:09 | INFO     | trading_bot.client | Server time synchronized | offset=441ms
+2026-06-08 23:42:09 | INFO     | trading_bot.client | Server time synchronized | offset=453ms
+2026-06-08 23:42:09 | INFO     | trading_bot.client | Server time synchronized | offset=442ms
+2026-06-08 23:42:11 | INFO     | trading_bot.client | Server time synchronized | offset=383ms
+2026-06-08 23:42:11 | INFO     | trading_bot.client | Server time synchronized | offset=444ms
+2026-06-08 23:42:12 | INFO     | trading_bot.client | Server time synchronized | offset=434ms
+2026-06-08 23:42:13 | INFO     | trading_bot.client | Server time synchronized | offset=444ms
+2026-06-08 23:42:13 | INFO     | trading_bot.client | Server time synchronized | offset=433ms
+2026-06-08 23:42:13 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942334184, 'signature': '94de0ade663ae1e45295fd3b95c5f933284e37ba0ee4f263b235d6ecc835f21b'}
+2026-06-08 23:42:14 | INFO     | trading_bot.client | Server time synchronized | offset=440ms
+2026-06-08 23:42:14 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942334580, 'signature': '370041d13657ef2619bb5e015255292deff226e448d39051141beb0b1935054b'}
+2026-06-08 23:42:14 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:42:14 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:42:14 | INFO     | trading_bot.client | Server time synchronized | offset=414ms
+2026-06-08 23:42:14 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:42:14 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:42:14 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:42:15 | INFO     | trading_bot.client | Server time synchronized | offset=435ms
+2026-06-08 23:42:15 | INFO     | trading_bot.client | Server time synchronized | offset=427ms
+2026-06-08 23:42:16 | INFO     | trading_bot.client | Server time synchronized | offset=434ms
+2026-06-08 23:42:17 | INFO     | trading_bot.client | Server time synchronized | offset=421ms
+2026-06-08 23:42:18 | INFO     | trading_bot.client | Server time synchronized | offset=443ms
+2026-06-08 23:42:18 | INFO     | trading_bot.client | Server time synchronized | offset=422ms
+2026-06-08 23:42:19 | INFO     | trading_bot.client | Server time synchronized | offset=441ms
+2026-06-08 23:42:20 | INFO     | trading_bot.client | Server time synchronized | offset=436ms
+2026-06-08 23:42:21 | INFO     | trading_bot.client | Server time synchronized | offset=440ms
+2026-06-08 23:42:22 | INFO     | trading_bot.client | Server time synchronized | offset=424ms
+2026-06-08 23:42:26 | INFO     | trading_bot.client | Server time synchronized | offset=435ms
+2026-06-08 23:42:26 | INFO     | trading_bot.client | Server time synchronized | offset=437ms
+2026-06-08 23:42:26 | INFO     | trading_bot.client | Server time synchronized | offset=434ms
+2026-06-08 23:42:26 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942346499, 'signature': 'e324c2a70a7060939a6aa5d101f9658308b43c6f3db834566462982008de19b9'}
+2026-06-08 23:42:26 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:42:26 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:42:26 | INFO     | trading_bot.client | Server time synchronized | offset=437ms
+2026-06-08 23:42:26 | INFO     | trading_bot.client | Server time synchronized | offset=435ms
+2026-06-08 23:42:27 | INFO     | trading_bot.client | Server time synchronized | offset=444ms
+2026-06-08 23:42:28 | INFO     | trading_bot.client | Server time synchronized | offset=405ms
+2026-06-08 23:42:29 | INFO     | trading_bot.client | Server time synchronized | offset=438ms
+2026-06-08 23:42:29 | INFO     | trading_bot.client | Server time synchronized | offset=412ms
+2026-06-08 23:42:30 | INFO     | trading_bot.client | Server time synchronized | offset=417ms
+2026-06-08 23:42:31 | INFO     | trading_bot.client | Server time synchronized | offset=428ms
+2026-06-08 23:42:32 | INFO     | trading_bot.client | Server time synchronized | offset=439ms
+2026-06-08 23:42:32 | INFO     | trading_bot.client | Server time synchronized | offset=438ms
+2026-06-08 23:42:33 | INFO     | trading_bot.client | Server time synchronized | offset=426ms
+2026-06-08 23:42:34 | INFO     | trading_bot.client | Server time synchronized | offset=434ms
+2026-06-08 23:42:34 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942354487, 'signature': '0a9ba18a365b08b3fefb74fffc4b913958ed4b7ea656ffc4960b0ffe817c13da'}
+2026-06-08 23:42:34 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:42:34 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:42:34 | INFO     | trading_bot.client | Server time synchronized | offset=440ms
+2026-06-08 23:42:35 | INFO     | trading_bot.client | Server time synchronized | offset=435ms
+2026-06-08 23:42:39 | INFO     | trading_bot.client | Server time synchronized | offset=431ms
+2026-06-08 23:42:39 | INFO     | trading_bot.client | Server time synchronized | offset=435ms
+2026-06-08 23:42:58 | INFO     | trading_bot.client | Server time synchronized | offset=436ms
+2026-06-08 23:42:58 | INFO     | trading_bot.client | Server time synchronized | offset=433ms
+2026-06-08 23:42:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v2/account | params={'timestamp': 1780942379040, 'signature': 'c8e64fbb58a9604dcb5d4cb6e8447d98f620633e10fcff8ed8ffd0aabeec8413'}
+2026-06-08 23:42:58 | INFO     | trading_bot.client | Server time synchronized | offset=408ms
+2026-06-08 23:42:58 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/openOrders | params={'timestamp': 1780942379042, 'signature': '166f6ea9e7e483c475234cdfbebf1608d39add9459dcc7ad2b6936f817473be1'}
+2026-06-08 23:42:59 | DEBUG    | trading_bot.client | RESPONSE /fapi/v2/account | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:42:59 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:42:59 | DEBUG    | trading_bot.client | RESPONSE /fapi/v1/openOrders | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-06-08 23:42:59 | ERROR    | trading_bot.client | API error: code=-2014 msg=API-key format invalid.
+2026-06-08 23:42:59 | ERROR    | trading_bot.api | Account fetch failed: Binance API error -2014: API-key format invalid.
+2026-06-08 23:42:59 | INFO     | trading_bot.client | Server time synchronized | offset=422ms
+2026-06-08 23:43:01 | INFO     | trading_bot.client | Server time synchronized | offset=422ms
+2026-06-08 23:43:02 | INFO     | trading_bot.client | Server time synchronized | offset=424ms
+2026-06-08 23:43:03 | INFO     | trading_bot.client | Server time synchronized | offset=429ms
